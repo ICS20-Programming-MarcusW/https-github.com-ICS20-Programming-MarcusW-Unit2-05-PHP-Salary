@@ -59,13 +59,15 @@
          <input type="submit" name="submit" value="Submit">  
       </form>
       <?php
-         function pay($total_pay, $tax) 
+         function pay($total_pay, $tax)
+           
          {
              return round( $total_pay - $tax, 2);
          }
          
-          echo "<h4>Your pay will be: " . "$" . pay($total_pay, $tax) . "</h4>";
-    
+         // if (!empty($baseOfTriangle)) {
+            echo "<h4>Your pay will be: " . "$" . pay($total_pay, $tax) . "</h4>";
+         //    }
          ?>
       <?php
          function govPay($toTax, $total_pay)
@@ -73,7 +75,9 @@
              return round( $toTax * $total_pay, 2);
          }
          
-          echo "<h4>The government will take: " . "$" . govPay($toTax, $total_pay) . "</h4>";
+         // if (!empty($baseOfTriangle)) {
+            echo "<h4>The government will take: " . "$" . govPay($toTax, $total_pay) . "</h4>";
+         //    }
          ?>
    </body></center>
 </html>

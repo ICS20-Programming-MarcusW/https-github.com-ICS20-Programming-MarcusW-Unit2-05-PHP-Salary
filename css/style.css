@@ -1,0 +1,42 @@
+/* Created by: Marcus Wehbi
+* Created on: Mar 2022
+* This CSS file defines the style for index.php
+* ICS2O-Unit2-05-PHP-Salary
+*/
+
+body {
+	background-color: rgb(249, 190, 190);
+}
+
+h1 {
+	background-color: rgb(153, 199, 234);
+	color: hsl(211, 100%, 30%);
+	padding: 40px;
+	text-align: center;
+}
+
+h3 {
+  colour: color: hsl(0, 0%, 0%);
+  background-color: #b8f4e2;
+  padding: 20px;
+  width: 60%;
+}
+
+h4 {
+  background-color: rgb(153, 234, 163);
+	color: hsl(127, 100%, 22%);
+  padding: 5px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+form {
+  background-color: rgb(206, 153, 234);
+	color: hsl(302, 100%, 13%);
+  padding: 5px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+}
